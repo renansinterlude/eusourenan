@@ -1,0 +1,408 @@
+/* texto:
+    #100906
+    #3C2317
+    #628E90
+    titulos:
+    #385a5d
+    fundo:
+    #b0e0e6
+    #F5EFE6  */
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3em;
+    color: #100906;
+    background-color: bisque;
+}
+
+/* dá pra mudar as quebras de linhas do texto usando width também em vez de br. 
+    Pra isso, criar uma classe pro texto e mudar a width */
+
+/* fontes com tamanhos dinâmicos: % ou em.
+16px = 100% = 1em
+rem = ignora as dimensões dos parentes anteriores pra que 
+não seja reescalado em cima do valor anteriormente especificado */
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20.8px; /* 20.8px */
+}
+
+hr {
+    border-style: dotted none none;    
+    color: #100607;
+    border-width: 6px;
+    width: 6%;
+    margin: 100px auto 80px auto;
+}
+
+h1 {
+    font-size: 5.62rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Underdog', cursive;
+    color: #100906;
+    /* font-family: 'Barrio', cursive; */
+}
+
+h2 {
+    font-size: 50px; /* 40px */
+    color: #4d6969;
+}
+
+.ola {
+    color: #2e2011;
+}
+
+.margem-reduzida {
+    margin-bottom: 10px;
+}
+
+.margem-aumentada {
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.subtitulo {
+    color: #100906;
+}
+
+h3 {
+    font-size: 1.6rem; /* 25.6px */
+    color: #4d6969;
+}
+
+.azul-escuro {
+    color: #385a5d;
+}
+
+a {
+    color: #4d6969;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+.footer-link {
+    color: #b0d0d4;
+    margin: 10px 20px;
+}
+
+.footer-link:hover {
+    color: #d0f3f8;
+}
+
+.perfil-div {
+    position: relative;
+    margin: 50px auto 0 auto;
+    padding: 40px 20px 40px 20px;
+    width: 50%;
+    background-color: #edf8b1;
+}
+
+.imagem-perfil {
+    width: 300px;
+    height: 300px;
+    margin-right: 30px;
+}
+
+.imagem-desenhar {
+    width: 300px;
+    height: 300px;
+    margin-right: 30px;
+    float: left;
+}
+
+.imagem-livro1 {
+    margin-left: 30px;
+    width: 240px;
+    float: right;
+}
+
+.imagem-musica {
+    width: 300px;
+    height: 300px;
+    margin-right: 30px;
+    float: left;
+}
+
+.imagem-chorar {
+    width: 300px;
+    margin-left: 30px;
+    float: right;
+}
+
+.livro2 {
+    width: 150px;
+    float: left;
+}
+
+.skill-row-desenhar {
+    margin: 60px auto 100px auto;
+    padding: 10px 0 10px 0;
+    width: 50%;
+    height: 300px;
+    text-align: left;
+    line-height: 2;
+    background-color: #FFC69B;
+}
+
+.desenhar-titulo {
+    padding-top: 8px;
+    margin-left: 40px;
+    margin: 0 auto 0 40px;
+}
+
+.desenhar-descricao {
+    margin-right: 30px;
+}
+
+
+.skill-row-escrever {
+    margin: 0 auto 100px auto;
+    padding: 0;
+    width: 50%;
+    height: 374px;
+    text-align: left;
+    line-height: 2;
+    background-color: aliceblue;
+}
+
+.escrever-titulo {
+    margin: 0 auto 0 40px;
+    padding-top: 30px;
+}
+
+.escrever-descricao {
+    margin-left: 40px;
+}
+
+
+.skill-row-musica {
+    margin: 0 auto 100px auto;
+    padding: 0;
+    width: 50%;
+    height: 300px;
+    text-align: left;
+    line-height: 2;
+    background-color: #F8EDB1;
+}
+
+.musica-titulo {
+    margin: 0 auto 0 40px;
+    padding-top: 10px;
+}
+
+.musica-descricao {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+
+.skill-row-chorar {
+    margin: 0 auto 50px auto;
+    padding: 0;
+    width: 50%;
+    height: 300px;
+    text-align: left;
+    line-height: 2;
+    background-color: #b0d0d4;
+}
+
+.chorar-titulo {
+    margin: 0 auto 0 40px;
+    padding-top: 40px;
+}
+
+.chorar-descricao {
+    margin: 10px 0 0 40px;
+}
+
+/*
+.musica-descricao {
+    clear: left;
+} */
+
+.topo {
+    position: relative;
+    background-color: #ffe4c4;
+    width: 100%;
+    padding-top: 120px;
+}
+
+.meio {
+    position: relative;
+    background-color: #E5D3D9;
+}
+
+.inferior {
+    background-color: #100906;
+    padding-bottom: 10px;  
+    padding-top: 35px; 
+}
+
+.creditos {
+    color: bisque;
+    font-size: 1.0rem;
+    padding: 20px 0;
+}
+
+/* 
+.btn {
+    background: #2e2011;
+    background-image: -webkit-linear-gradient(top, #2e2011, #100906);
+    background-image: -moz-linear-gradient(top, #2e2011, #100906);
+    background-image: -ms-linear-gradient(top, #2e2011, #100906);
+    background-image: -o-linear-gradient(top, #2e2011, #100906);
+    background-image: linear-gradient(to bottom, #2e2011, #100906);
+    -webkit-border-radius: 14;
+    -moz-border-radius: 14;
+    border-radius: 14px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #628E90;
+    background-image: -webkit-linear-gradient(top, #628E90, #385a5d);
+    background-image: -moz-linear-gradient(top, #628E90, #385a5d);
+    background-image: -ms-linear-gradient(top, #628E90, #385a5d);
+    background-image: -o-linear-gradient(top, #628E90, #385a5d);
+    background-image: linear-gradient(to bottom, #628E90, #385a5d);
+    text-decoration: none;
+  }
+
+*/
+
+.btn {
+    background: #628E90;
+    background-image: -webkit-linear-gradient(top, #628E90, #385a5d);
+    background-image: -moz-linear-gradient(top, #628E90, #385a5d);
+    background-image: -ms-linear-gradient(top, #628E90, #385a5d);
+    background-image: -o-linear-gradient(top, #628E90, #385a5d);
+    background-image: linear-gradient(to bottom, #628E90, #385a5d);
+    -webkit-border-radius: 14;
+    -moz-border-radius: 14;
+    border-radius: 14px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #415b5c;
+    background-image: -webkit-linear-gradient(top, #415b5c, #253b3d);
+    background-image: -moz-linear-gradient(top, #415b5c, #253b3d);
+    background-image: -ms-linear-gradient(top, #415b5c, #253b3d);
+    background-image: -o-linear-gradient(top, #415b5c, #253b3d);
+    background-image: linear-gradient(to bottom, #415b5c, #253b3d);
+    text-decoration: none;
+  }
+
+
+.A {
+    text-decoration: underline;
+}
+
+/* .moldura {
+    position: absolute;
+    width: 78%;
+    right: 100px;
+} */
+
+.divisao-desenhos {
+    width: 90%;
+    margin-top: 50px;
+}
+
+.divisao-simples {
+    width: 30%;
+    margin: 50px auto 30px auto;
+}
+
+.primeira {
+    width: 30%;
+    margin: 50px auto 0 auto;
+}
+
+
+
+/*
+.inteira {
+    position: absolute;
+    margin: 0 auto 0 auto;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+*/
+
+
+.ave-cima {
+    position: absolute;
+    left: 300px;
+    top: 70px;
+    width: 170px;
+}
+
+.ave-meio {
+    position: absolute;
+    right: 49%;
+    top: 390px;
+    width: 170px;
+}
+
+.ave-baixo {
+    position: absolute;
+    right: 350px;
+    bottom: 250px;
+    width: 170px;
+}
+
+.nuvem-baixo {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+    width: 170px;
+}
+
+.sol {
+    position: absolute;
+    right: 40%;
+    bottom: 600px;  
+    width: 350px;
+}
+ 
+.nuvem-cima {
+   position: absolute;
+    right: 300px;
+    top: 50px;
+    width: 170px;
+}
+
+.montanha {
+    padding-top: 40px;
+}
+
+
+
+/* Inline: Se mostram um do lado do outro. <Img>, <Span>, <A>
+    Block: Ocupam toda parte horizontal. <P>, <Ul>, <Ol>...
+
+    */
+
+/*  Borda: Externa, colado e ao redor da div
+    Padding -> Preenchimento: Interno; Define quanto espaço interno
+    tem entre o conteúdo da div e sua "borda" 
+    Margin: Depois da borda, o espaço de "respiro", vazio que a div tem antes de outro elemento.
+*/
+
+/* 
+    Uma div que vai servir como guia de posicionamento absoluto pra um outro elemento
+    PRECISA ter como position Relative
+*/
